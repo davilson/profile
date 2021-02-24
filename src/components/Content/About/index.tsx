@@ -72,6 +72,9 @@ const About: React.FC = () => {
                 target="_blank"
               >
                 Baixar currículo
+                <span className="ml-1">
+                  <i className="fas fa-download"></i>
+                </span>
               </a>
             </div>
           </div>

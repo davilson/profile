@@ -1,5 +1,7 @@
 import React from "react";
 
+import { socialList } from "../../utils";
+
 const SidebarLeft: React.FC = () => {
   return (
     <header id="header" className="sticky-top">
@@ -43,11 +45,13 @@ const SidebarLeft: React.FC = () => {
                   Experiência/Formação
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link smooth-scroll" href="#portfolio">
-                  Portfólio
-                </a>
-              </li>
+              {/*
+                <li className="nav-item">
+                  <a className="nav-link smooth-scroll" href="#portfolio">
+                    Portfólio
+                  </a>
+                </li>
+              */}
               <li className="nav-item">
                 <a className="nav-link smooth-scroll" href="#contact">
                   Contato
@@ -56,50 +60,19 @@ const SidebarLeft: React.FC = () => {
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ml-auto ml-lg-0 mb-n1 d-flex">
-            <li className="social-icons-facebook">
-              <a
-                data-toggle="tooltip"
-                href="http://www.facebook.com/"
-                target="_blank"
-                title=""
-                data-original-title="Facebook"
-              >
-                <i className="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li className="social-icons-twitter">
-              <a
-                data-toggle="tooltip"
-                href="http://www.twitter.com/"
-                target="_blank"
-                title=""
-                data-original-title="Twitter"
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="social-icons-dribbble">
-              <a
-                data-toggle="tooltip"
-                href="http://www.dribbble.com/"
-                target="_blank"
-                title=""
-                data-original-title="Dribbble"
-              >
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="social-icons-github">
-              <a
-                data-toggle="tooltip"
-                href="http://www.google.com/"
-                target="_blank"
-                title=""
-                data-original-title="GitHub"
-              >
-                <i className="fab fa-github"></i>
-              </a>
-            </li>
+            {socialList.map((i) => (
+              <li className="" key={i.title}>
+                <a
+                  data-toggle="tooltip"
+                  href={i.link}
+                  target="_blank"
+                  title={i.title}
+                  data-original-title={i.title}
+                >
+                  <i className={i.icon}></i>
+                </a>
+              </li>
+            ))}
           </ul>
           <button
             className="navbar-toggler"

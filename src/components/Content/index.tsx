@@ -2,7 +2,7 @@ import React from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Home from "./Home";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import Skills from "./Skills";
 
@@ -13,7 +13,7 @@ const Content: React.FC = () => {
       <About />
       <Skills />
       <Resume />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Contact />
     </div>
   );
