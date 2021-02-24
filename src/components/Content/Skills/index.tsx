@@ -45,6 +45,18 @@ const Skills: React.FC = () => {
         "TypeScript é um superconjunto de JavaScript desenvolvido pela Microsoft que adiciona tipagem e alguns outros recursos a linguagem.",
     },
     {
+      icon: "jest.svg",
+      title: "Jest",
+      description:
+        "Jest é uma estrutura de teste de JavaScript agradável com foco na simplicidade. Trabalha com projetos usando: Babel , TypeScript , Node , React , Angular , Vue e muito mais!",
+    },
+    {
+      icon: "serverless.svg",
+      title: "Serverless",
+      description:
+        "Serverless é um modelo de desenvolvimento nativo em nuvem para criação e execução de aplicações sem o gerenciamento de servidores.",
+    },
+    {
       icon: "mongodb.svg",
       title: "MongoDB",
       description:
@@ -61,6 +73,12 @@ const Skills: React.FC = () => {
       title: "MySQL",
       description:
         "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation.",
+    },
+    {
+      icon: "redis.png",
+      title: "Redis",
+      description:
+        "Redis é um armazenamento de estrutura de dados em memória, usado como um banco de dados em memória distribuído de chave-valor, cache e agente de mensagens, com durabilidade opcional.",
     },
   ];
   return (

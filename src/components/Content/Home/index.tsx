@@ -19,14 +19,12 @@ const Home: React.FC = () => {
                   <p>Sou um dev Full-stack</p>
                 </div>
                 <p className="text-7 font-weight-500 text-white mb-2 mb-md-3">
-                  Bem-vindo
+                  Olá
                 </p>
                 <h2 className="text-16 font-weight-600 text-white mb-2 mb-md-3">
                   <span className="typed"></span>
                 </h2>
-                <p className="text-5 text-light mb-4">
-                  Atualmente morando em Poços de Caldas - MG.
-                </p>
+                <p className="text-5 text-light mb-4">Seja bem-vindo</p>
                 <a
                   href="#contact"
                   className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2"

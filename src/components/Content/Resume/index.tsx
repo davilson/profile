@@ -6,10 +6,10 @@ const Resume: React.FC = () => {
       <div className="container px-lg-5">
         <div className="position-relative d-flex text-center mb-5">
           <h2 className="text-24 text-light opacity-4 text-uppercase font-weight-600 w-100 mb-0">
-            Summary
+            Resumo
           </h2>
           <p className="text-9 text-dark font-weight-600 position-absolute w-100 align-self-center line-height-4 mb-0">
-            Resume
+            Experiência/Formação
             <span className="heading-separator-line border-bottom border-3 border-primary position-abolute d-block mx-auto"></span>{" "}
           </p>
         </div>
