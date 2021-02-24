@@ -69,6 +69,12 @@ const Skills: React.FC = () => {
         "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.",
     },
     {
+      icon: "git.svg",
+      title: "Git",
+      description:
+        "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.",
+    },
+    {
       icon: "postgres.svg",
       title: "PostgreSQL",
       description:
