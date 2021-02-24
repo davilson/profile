@@ -57,6 +57,12 @@ const Skills: React.FC = () => {
         "Serverless é um modelo de desenvolvimento nativo em nuvem para criação e execução de aplicações sem o gerenciamento de servidores.",
     },
     {
+      icon: "docker.svg",
+      title: "Docker",
+      description:
+        "Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração.",
+    },
+    {
       icon: "mongodb.svg",
       title: "MongoDB",
       description:
