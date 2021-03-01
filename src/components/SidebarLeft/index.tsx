@@ -12,7 +12,7 @@ const SidebarLeft: React.FC = () => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="/images/profile.png"
-                title="I'm Simone"
+                title="Davilson de Castro"
                 alt=""
               />
             </span>
