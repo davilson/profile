@@ -12,10 +12,19 @@ function App({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
         />
         <meta name="author" content="davilson.dev" />
+        <meta name="title" content="Davilson de Castro"></meta>
         <meta
           name="description"
-          content="Graduado em Sistemas de Informação no Centro Universitário das Faculdades Associadas de Ensino — UNIFAE, sou apaixonado por programação e atuo profissionalmente na área há pelo menos 8 anos. Atualmente trabalho em projetos que utilizam PHP, Node.js, React.js/React Native, HTML5, CSS3, MongoDB, MySQL, Bootstrap e Material-Ui."
+          content="Graduado em Sistemas de Informação no Centro Universitário das Faculdades Associadas de Ensino — UNIFAE, sou apaixonado por programação e atuo profissionalmente na área há mais de 8 anos. Atualmente trabalho em projetos que utilizam a stack React Native, React Js e NodeJs com bancos de dados Postgres, MongoDb, MySQL, Redis, entre outros."
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://davilson.dev/" />
+        <meta property="og:title" content="Davilson de Castro" />
+        <meta
+          property="og:description"
+          content="Graduado em Sistemas de Informação no Centro Universitário das Faculdades Associadas de Ensino — UNIFAE, sou apaixonado por programação e atuo profissionalmente na área há mais de 8 anos. Atualmente trabalho em projetos que utilizam a stack React Native, React Js e NodeJs com bancos de dados Postgres, MongoDb, MySQL, Redis, entre outros."
+        />
+        <meta property="og:image" content="/images/profile.png" />
 
         <link
           rel="stylesheet"
